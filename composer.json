@@ -1,0 +1,29 @@
+{
+    "type": "library",
+    "name": "franzose/domain-stuff",
+    "description": "Common domain stuff that can included to various projects",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "ramsey/uuid": "^3.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Franzose\\DomainStuff\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Franzose\\DomainStuff\\Tests\\": "tests/"
+        }
+    }
+}
