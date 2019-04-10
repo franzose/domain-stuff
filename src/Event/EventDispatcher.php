@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Franzose\DomainStuff\Event;
 
-final class EventDispatcher
+class EventDispatcher
 {
     /**
      * @var array|EventListener[]
