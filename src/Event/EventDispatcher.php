@@ -8,7 +8,7 @@ final class EventDispatcher
     /**
      * @var array|EventListener[]
      */
-    private $listeners;
+    private $listeners = [];
 
     public function __construct(iterable $listeners = [])
     {
