@@ -7,7 +7,7 @@ use Franzose\DomainStuff\Identity\Exception\InvalidIdentifierException;
 use Ramsey\Uuid\Exception\InvalidUuidStringException;
 use Ramsey\Uuid\Uuid;
 
-final class UuidIdentifier extends Identifier
+class UuidIdentifier extends Identifier
 {
     public static function next(): self
     {
